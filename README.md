@@ -14,6 +14,22 @@ The main objective of this repository is to provide an end-to-end solution for a
 - **Model Training Notebooks**: Step-by-step Jupyter notebooks to train your object detection model using Detectron2 with STAC.
 - **Inference and Evaluation**: Tools to evaluate the model performance and visualize the detection results.
 
+## Dataset Preparation
+
+Before you begin, ensure that you have downloaded the SODA10M dataset. The dataset should be organized in the following directory structure:
+
+/ (root of the Git repository)
+└── SSLAD-2D/
+    └── labeled/
+        ├── annotations/
+        ├── test/
+        ├── train/
+        └── val/
+
+
+This structure is essential for the scripts to function correctly. The `annotations` folder should contain the dataset annotations, and the `test`, `train`, and `val` folders should contain the corresponding image sets.
+
+
 ## Demo
 To illustrate the functionality of the repository, here is a GIF showcasing the pre-processing, training, and detection steps:
 
