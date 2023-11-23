@@ -18,6 +18,7 @@ The main objective of this repository is to provide an end-to-end solution for a
 
 Before you begin, ensure that you have downloaded the SODA10M dataset. The dataset should be organized in the following directory structure:
 
+```plaintext
 / (root of the Git repository)
 └── SSLAD-2D/
     └── labeled/
