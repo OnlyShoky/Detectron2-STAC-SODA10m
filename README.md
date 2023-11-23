@@ -1,7 +1,7 @@
 # Detectron2-STAC-SODA10m
 
 ## Introduction
-Welcome to the Detectron2-STAC-SODA10m repository. This project integrates the STAC semi-supervised object detection algorithm with Detectron2 applied to the SODA10m dataset. The STAC algorithm, which stands for Semi-supervised Teacher-student Anomaly detection for object Counting, leverages both labeled and unlabeled data to improve object detection performance, particularly in situations where labeled data is not abundantly available.
+Welcome to the Detectron2-STAC-SODA10m repository. This project integrates the STAC semi-supervised object detection algorithm with Detectron2 applied to the SODA10m dataset. The STAC algorithm, which stands for **S**elf-**T**raining (via pseudolabel) and **A**ugmentation driven **C**onsistency regularization.Used to improve object detection performance, particularly in situations where labeled data is not abundantly available.
 
 ## Objectives
 The main objective of this repository is to provide an end-to-end solution for applying STAC in the realm of satellite imagery analysis. By harnessing the SODA10m dataset, this project aims to:
