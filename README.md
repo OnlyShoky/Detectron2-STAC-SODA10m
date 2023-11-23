@@ -4,8 +4,8 @@
 Welcome to the Detectron2-STAC-SODA10m repository. This project integrates the STAC semi-supervised object detection algorithm with Detectron2 applied to the SODA10m dataset. The STAC algorithm, which stands for **S**elf-**T**raining (via pseudolabel) and **A**ugmentation driven **C**onsistency regularization. Used to improve object detection performance, particularly in situations where labeled data is not abundantly available.
 
 ## Objectives
-The primary goal of this repository is to develop and implement the Self-Training and Augmentation driven Consistency regularization (STAC) approach using the Detectron2 library. With a focus on the SODA10m dataset, this project aims to:- Enhance object detection models using semi-supervised learning.
-- Reduce the reliance on large sets of labeled data.
+The primary goal of this repository is to develop and implement the Self-Training and Augmentation driven Consistency regularization (STAC) approach using the Detectron2 library. With a focus on the SODA10m dataset, this project aims to:
+- Enhance object detection models using semi-supervised learning.
 - Minimize the dependency on extensive labeled datasets while maintaining high model performance.
 
 ## Features
@@ -19,7 +19,7 @@ To illustrate the functionality of the repository, here is a GIF showcasing the 
 
 ![STAC-Detectron2-Demo](demo.gif)
 
-_The GIF is a composite of two images that demonstrate the before-and-after effect of applying the STAC algorithm to satellite imagery._
+_The GIF is a composite of two images that demonstrate the before-and-after effect of applying Faster RCNN._
 
 ## Getting Started
 
