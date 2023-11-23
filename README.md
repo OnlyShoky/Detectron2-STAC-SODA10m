@@ -26,7 +26,7 @@ Before you begin, ensure that you have downloaded the SODA10M dataset. The datas
         ├── test/
         ├── train/
         └── val/
-
+```
 
 This structure is essential for the scripts to function correctly. The `annotations` folder should contain the dataset annotations, and the `test`, `train`, and `val` folders should contain the corresponding image sets.
 
