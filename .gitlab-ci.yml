@@ -1,8 +1,8 @@
 update_gitlab_repo:
   script:
-    - git clone https://github.com/your-username/your-github-repo.git
-    - cd your-github-repo
-    - git remote add gitlab https://gitlab.com/your-username/your-gitlab-repo.git
+    - git clone https://github.com/OnlyShoky/Detectron2-STAC-SODA10m.git
+    - cd Detectron2-STAC-SODA10m
+    - git remote add gitlab https://gitlab.extend.internal.expleogroup.com/mohamed.el-mourabit-agharbi/Detectron2-STAC-SODA10m.git
     - git push gitlab HEAD:master
   only:
     - triggers
